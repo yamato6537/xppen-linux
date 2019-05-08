@@ -11,7 +11,7 @@ Supported tablets
 
 | PID:VID |Model name              |Supported features                 |
 |:-------:|:-----------------------|:----------------------------------|
-|28BD:0042|XP-PEN Deco01           |2540LPI, 8192PL                    |
+|28BD:0042|XP-PEN Deco01           |2540LPI, 8192PL, EK                |
 
 |ABBR|Meaning         |
 |:---|:---------------|
