@@ -1,13 +1,10 @@
-XP-PEN tablet driver
-==========
+# XP-PEN tablet driver
 
-About
-----------
+## About
 
 This is a Linux kernel driver for XP-PEN USB tablets.
 
-Supported tablets
-----------
+## Supported tablets
 
 | PID:VID |Model name              |Supported features                 |
 |:-------:|:-----------------------|:----------------------------------|
@@ -20,10 +17,9 @@ Supported tablets
 |TS  |tilt sensitivity|
 |EK  |express keys    |
 
-Building and Installation 
-----------
+## Build and Install 
 
-### Dependency
+### Dependencies
 
 - gcc
 - GNU make
@@ -31,7 +27,7 @@ Building and Installation
 - xf86-input-wacom
 - python3
 
-### Building
+### Build
 
     $ git clone https://github.com/lambda2111/xppen-linux.git
     $ cd xppen-linux
@@ -40,7 +36,7 @@ Building and Installation
 
 After that, reboot your PC.
 
-### Installation
+### Install
 
     $ cd xppen-linux
     $ sudo python3 unbind.py
@@ -52,13 +48,12 @@ You need to type these commands every boot time.
 
 You need to rebuild the driver after a Linux kernel update.
 
-#### Rebuilding:
+### Rebuilding:
 
     $ cd xppen-linux
     $ make clean
     $ make
 
-License
-----------
+## License
 
 GPL (or later)
