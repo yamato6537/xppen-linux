@@ -48,7 +48,7 @@ You need to type these commands every boot time.
 
 You need to rebuild the driver after a Linux kernel update.
 
-### Rebuilding:
+### Rebuild:
 
     $ cd xppen-linux
     $ make clean
